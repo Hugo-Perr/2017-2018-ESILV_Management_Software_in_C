@@ -1,0 +1,62 @@
+﻿<Window x:Class="POOI_PFR_Rendu_3.Saisir_employe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POOI_PFR_Rendu_3"
+        mc:Ignorable="d"
+        Title="saisir_employe" Height="350" Width="500">
+    <WrapPanel x:Name="wpglobal"  Height="350" Width="500">
+        <WrapPanel x:Name="wpgauche" Orientation="Vertical" Height="320"  Width="245" Margin="0,0,0,-1.2">
+
+            <Label Content="           Saisir un nouvel employe :" Height="38" Width="213"/>
+            <StackPanel Orientation="Horizontal" Height="38" Width="245" RenderTransformOrigin="0.522,0.507">
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.515"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="0.373"/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <Label Content="Identifiant :" Margin="0,0,0,10.4"/>
+                <TextBox TextWrapping="Wrap" Text=" " Width="174"  HorizontalContentAlignment="Center" Margin="0,0,0,10.4" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.603,0.066"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="38" Width="245" RenderTransformOrigin="0.522,0.507">
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.515"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="0.373"/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <Label Content="Nom :" Margin="0,0,0,10.4"/>
+                <TextBox TextWrapping="Wrap" Text=" " Width="202"  HorizontalContentAlignment="Center" Margin="0,0,0,10.4" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.603,0.066"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="38" Width="245" RenderTransformOrigin="0.522,0.507">
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.515"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="0.373"/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <Label Content="Prénom :" Margin="0,0,0,10.4"/>
+                <TextBox TextWrapping="Wrap" Text=" " Width="185"  HorizontalContentAlignment="Center" Margin="0,0,0,10.4" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.603,0.066"/>
+            </StackPanel>
+
+
+        </WrapPanel>
+        <WrapPanel x:Name="wpdroite" HorizontalAlignment="Left" Height="320" VerticalAlignment="Top" Width="245" Margin="0,0,0,-1.2">
+            <Label Content="            Liste des employés du parc :" Width="239"/>
+
+        </WrapPanel>
+    </WrapPanel>
+
+
+
+
+</Window>

@@ -75,5 +75,6 @@ The project is evaluated based on:
 
 ##   Assignements
 
-* [Rendu_PFR1_rapport.pdf](https://github.com/Hugo-Perr/2017-2018-ESILV_Management_Software_in_C/blob/master/Rendu_PFR1_rapport.pdf): Data Structure
-
+* [Assignement 1](https://github.com/Hugo-Perr/2017-2018-ESILV_Management_Software_in_C/blob/master/Assignements/Assignement%20N1/Rendu_PFR1_rapport.pdf)
+* [Assignement 2](https://github.com/Hugo-Perr/2017-2018-ESILV_Management_Software_in_C/blob/master/Assignements/Assignement%20N2/Rendu_PFR2_rapport.pdf)
+* [Assignement 3 (Final)](https://github.com/Hugo-Perr/2017-2018-ESILV_Management_Software_in_C/blob/master/Assignements/Assignement%20N3/Rendu_PFR3_rapport.pdf)
